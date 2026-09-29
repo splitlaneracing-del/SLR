@@ -1,0 +1,264 @@
+/* Base Layout & Theme Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Black', Impact, sans-serif;
+}
+
+body {
+    background-color: #121212; /* Deep matte black background */
+    color: #e0e0e0;
+    line-height: 1.5;
+}
+
+/* Announcement Bar */
+.announcement-bar {
+    background-color: #d32f2f; /* Racing Red */
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* Header Navigation */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #1a1a1a;
+    border-bottom: 3px solid #29b6f6; /* High-Octane Blue accent line */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    color: #ffffff;
+    letter-spacing: -1px;
+}
+
+.accent-chevron {
+    color: #d32f2f; /* Red Chevron element mirroring your logo */
+    margin: 0 2px;
+}
+
+.logo-subtext {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+    letter-spacing: 4px;
+    margin-top: -5px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 0 1rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+
+.nav-menu a:hover {
+    color: #29b6f6; /* Accent color shift */
+}
+
+.cart-icon {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.cart-count {
+    background-color: #d32f2f;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+}
+
+/* Hero Section */
+.hero-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url('hero-bg.jpg') no-repeat center center/cover;
+    background-color: #1c1c1c; 
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.hero-content p {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.2rem;
+    color: #cccccc;
+    max-width: 700px;
+    margin-bottom: 2rem;
+}
+
+/* Custom Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #d32f2f;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #b71c1c;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #ffffff;
+    color: #121212;
+    transform: translateY(-2px);
+}
+
+/* Product Section Grids */
+.store-container {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-section {
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border-left: 5px solid #d32f2f;
+    padding-left: 0.75rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.product-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 280px;
+    max-width: 360px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    border-color: #29b6f6;
+}
+
+.product-image-placeholder {
+    background-color: #2a2a2a;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+    font-family: 'Segoe UI', sans-serif;
+    border-bottom: 2px solid #333;
+}
+
+.product-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.product-card .price {
+    font-size: 1.2rem;
+    color: #29b6f6;
+    margin-bottom: 1rem;
+}
+
+.add-to-cart-btn {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Footer Styling */
+.store-footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 2.5rem;
+    border-top: 1px solid #333;
+    font-size: 0.85rem;
+    color: #777;
+    letter-spacing: 1px;
+}
+
+/* Responsiveness for Mobile Screens */
+@media (max-width: 768px) {
+    .main-header { flex-direction: column; text-align: center; gap: 1rem; }
+    .nav-menu ul { flex-direction: column; gap: 0.5rem; }
+    .hero-content h1 { font-size: 2.3rem; }
+    .product-grid { flex-direction: column; align-items: center; }
+    .product-card { width: 100%; }
+}

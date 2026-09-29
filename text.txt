@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Lane Racing | Premium Motorcycle Apparel & Gear</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="announcement-bar">
+        FAST SHIPPING ON ALL ORDERS | TRACK-READY APPAREL & ACCESSORIES
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="logo-container">
+            <span class="logo-text">SPLIT<span class="accent-chevron">&gt;</span>LANE</span>
+            <span class="logo-subtext">RACING</span>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#apparel">Apparel</a></li>
+                <li><a href="#gear">Riding Gear</a></li>
+                <li><a href="#accessories">Hardware & Accs</a></li>
+                <li><a href="#stickers">Decals</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="#cart" class="cart-icon">🛒 <span class="cart-count">0</span></a>
+        </div>
+    </header>
+
+    <!-- Hero Showcase -->
+    <section class="hero-banner">
+        <div class="hero-content">
+            <h1>OWN THE ASPHALT</h1>
+            <p>Premium motorcycle apparel, heavy-duty track gear, and custom racing accessories built for the bold.</p>
+            <div class="hero-buttons">
+                <a href="#apparel" class="btn btn-primary">Shop Apparel</a>
+                <a href="#gear" class="btn btn-secondary">Browse Gear</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Storefront Sections -->
+    <main class="store-container">
+
+        <!-- Category: Casual Apparel -->
+        <section id="apparel" class="product-section">
+            <h2 class="section-title">Streetwear &amp; Comfort</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image-placeholder">Premium Heavyweight Hoodie</div>
+                    <h3>SLR Premium Racing Hoodie</h3>
+                    <p class="price">$64.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">Heavy Duty Sweatpants</div>
+                    <h3>Trackside Fleece Sweatpants</h3>
+                    <p class="price">$54.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">Racing Snapback / Beanie</div>
+                    <h3>Split Lane Flat-Brim Hat</h3>
+                    <p class="price">$29.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category: Technical Motorcycle Gear -->
+        <section id="gear" class="product-section">
+            <h2 class="section-title">Technical Riding Gear</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image-placeholder">Armored Jacket</div>
+                    <h3>SLR Full-Armored Riding Jacket</h3>
+                    <p class="price">$189.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">Reinforced Gloves</div>
+                    <h3>Carbon Fiber Reinforced Gloves</h3>
+                    <p class="price">$49.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">Aerodynamic Backpack</div>
+                    <h3>High-Velocity Hard Shell Backpack</h3>
+                    <p class="price">$79.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category: Hardware & Parts -->
+        <section id="accessories" class="product-section">
+            <h2 class="section-title">Hardware &amp; Bike Accessories</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image-placeholder">High-Traction Grips</div>
+                    <h3>High-Traction Handlebar Grips</h3>
+                    <p class="price">$24.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">Embroidered Flight Tag Keychain</div>
+                    <h3>"Lane Splitter" Fabric Keychain</h3>
+                    <p class="price">$9.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">Garage Banner</div>
+                    <h3>Grommeted Trackside Garage Banner</h3>
+                    <p class="price">$34.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category: Decals & Merchandise -->
+        <section id="stickers" class="product-section">
+            <h2 class="section-title">Decals &amp; Sticker Packs</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image-placeholder">Die-Cut Helmet Decals</div>
+                    <h3>Helmet Stack Die-Cut Sticker Pack</h3>
+                    <p class="price">$14.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">Weatherproof Swingarm Decal</div>
+                    <h3>Vibrant Weatherproof Swingarm Decal</h3>
+                    <p class="price">$7.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="store-footer">
+        <p>&copy; 2026 Split Lane Racing. Engineered for the Ride.</p>
+    </footer>
+
+</body>
+</html>
